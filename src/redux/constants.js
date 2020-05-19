@@ -1,0 +1,36 @@
+// NOTIFICATIONS 
+
+export const ENQUEUE_SNACKBAR = 'ENQUEUE_SNACKBAR'
+export const CLOSE_SNACKBAR = 'CLOSE_SNACKBAR'
+export const REMOVE_SNACKBAR = 'REMOVE_SNACKBAR'
+
+
+// USER
+
+export const USER_SIGN_UP = 'USER_SIGN_UP'
+export const USER_SIGN_IN = 'USER_SIGN_IN'
+export const USER_SIGN_OUT = 'USER_SIGN_OUT'
+export const SET_USER_AUTH = 'SET_USER_AUTH'
+export const SET_GENERAL_INFO = 'SET_GENERAL_INFO'
+export const SET_USER_VALIDATION = 'SET_USER_VALIDATION'
+export const SET_USER_DATA = 'SET_USER_DATA'
+
+
+// GAME
+
+export const SET_START_GAME = 'SET_START_GAME'
+export const SET_END_GAME = 'SET_END_GAME'
+export const SET_COUNT_OF_STEPS = 'SET_COUNT_OF_STEPS'
+export const SET_ISWIN = 'SET_ISWIN'
+export const SET_BEST_GAME = 'SET_BEST_GAME'
+
+
+// LOADING
+
+export const SET_BACKDROP = 'SET_BACKDROP'
+export const SET_SKELETON = 'SET_SKELETON'
+
+
+// LeaderBoard 
+
+export const SET_LEADER_BOARD = 'SET_LEADER_BOARD'
