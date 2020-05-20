@@ -34,7 +34,6 @@ const GameTable = ({currentGame, loadingInterface, CState}) => {
     useEffect( () => {
 
         if ( currentGame.isWin ) {
-            console.log('You WIN. Count of steps: ' + currentGame.countOfSteps)
             CState.setEndGame(Date.now())
             CState.enqueueSnackbar({
                 message: 'Поздравляем! Вы выиграли!',
